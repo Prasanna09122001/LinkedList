@@ -9,9 +9,12 @@ namespace LinkedList
         {
             Console.WriteLine("Welcome to the Linked list Problem");
             linkedlist list = new linkedlist();
-            list.Add(56);
-            list.Add(30);
-            list.Add(70);
+            //list.Add(56);
+            //list.Add(30);
+            //list.Add(70);
+            list.AddInReverseOrder(56);
+            list.AddInReverseOrder(30);
+            list.AddInReverseOrder(70);
             list.Display();
         }
     }
