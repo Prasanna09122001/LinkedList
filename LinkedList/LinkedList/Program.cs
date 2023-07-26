@@ -20,8 +20,10 @@ namespace LinkedList
             // list.Display();
             // list.RemoveLastNode();
             // list.Display();
-            int a = list.search(70);
-            Console.WriteLine("The position of 70 is "+a);
+            //int a = list.search(70);
+            //Console.WriteLine("The position of 70 is "+a);
+            list.DeleteNodeAtParticularPosition(1);
+            list.Display();
         }                                                            
     }                                                                
 }                                                                    
