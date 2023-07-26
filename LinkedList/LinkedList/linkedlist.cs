@@ -146,7 +146,23 @@ namespace LinkedList
             }
             Node next = temp.next.next;
             temp.next = next;
-            //size();
+            size();
+        }
+        internal void size()
+        {
+            int count = 0;
+            Node temp = this.head;
+            if (temp == null)
+            {
+                Console.WriteLine("LinkedList is Empty");
+            }
+            while (temp != null)
+            {
+                Console.WriteLine(temp.data + " ");
+                count++;
+                temp = temp.next;
+            }
+            Console.WriteLine("The Size of The Linked List is "+count);
         }
     }
 }
