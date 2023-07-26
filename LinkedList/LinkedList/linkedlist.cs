@@ -81,5 +81,32 @@ namespace LinkedList
                 temp = temp.next;
             }
         }
+        internal Node RemoveFirstNode()
+        {
+            if(this.head ==null)
+            {
+                return null;
+            }
+            this.head = this.head.next;
+            return this.head;
+        }
+      /*  internal Node RemoveLastNode()
+        {
+            if(head == null)
+            {
+                return null;
+            }
+            if(head.next == null)
+            {
+                return null;
+            }
+            Node newnode = head;
+            while(newnode.next.next!=null)
+            {
+                newnode = newnode.next;
+            }
+            newnode.next = null;
+            return head;
+        }*/
     }
 }
