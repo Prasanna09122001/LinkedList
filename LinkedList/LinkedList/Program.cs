@@ -15,11 +15,13 @@ namespace LinkedList
             // list.AddInReverseOrder(56);                              
             // list.AddInReverseOrder(30);                              
             // list.AddInReverseOrder(70);
-            list.InserAtParticularPosition(2, 40);
-           // list.RemoveFirstNode();
-           // list.Display();
-            list.RemoveLastNode();
-            list.Display();
+            // list.InserAtParticularPosition(2, 40);
+            // list.RemoveFirstNode();
+            // list.Display();
+            // list.RemoveLastNode();
+            // list.Display();
+            int a = list.search(70);
+            Console.WriteLine("The position of 70 is "+a);
         }                                                            
     }                                                                
 }                                                                    
