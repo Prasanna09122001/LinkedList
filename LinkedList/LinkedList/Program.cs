@@ -15,8 +15,8 @@ namespace LinkedList
             // list.AddInReverseOrder(56);                              
             // list.AddInReverseOrder(30);                              
             // list.AddInReverseOrder(70);
-            list.InserAtParticularPosition(4, 40);
-            list.Display();                                          
+            list.InserAtParticularPosition(2, 40);
+            list.Display();                                          s
         }                                                            
     }                                                                
 }                                                                    
