@@ -90,7 +90,7 @@ namespace LinkedList
             this.head = this.head.next;
             return this.head;
         }
-      /*  internal Node RemoveLastNode()
+       internal Node RemoveLastNode()
         {
             if(head == null)
             {
@@ -107,6 +107,6 @@ namespace LinkedList
             }
             newnode.next = null;
             return head;
-        }*/
+        }
     }
 }
