@@ -24,14 +24,25 @@ namespace LinkedList
             //Console.WriteLine("The position of 70 is "+a);
             // list.DeleteNodeAtParticularPosition(1);
             //list.size();
-            Stack stack = new Stack();
-            stack.Push(56);
-            stack.Push(30);
-            stack.Push(70);
-            stack.Display();
-            stack.Peek();
-            stack.Pop();
-            stack.Display();
+
+            //Stack
+            //Stack stack = new Stack();
+            //stack.Push(56);
+            //stack.Push(30);
+            //stack.Push(70);
+            //stack.Display();
+            //stack.Peek();
+            //stack.Pop();
+            //stack.Display();
+
+            //Queue
+            Queue queue = new Queue();
+            queue.Enqueue(56);
+            queue.Enqueue(30);
+            queue.Enqueue(70);
+            queue.Display();
+            queue.Dequeue();
+            queue.Display();
         }                                                            
     }                                                                
 }                                                                    

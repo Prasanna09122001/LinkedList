@@ -37,7 +37,7 @@ namespace LinkedList
                 temp = temp.next;           
             }
         }
-        internal void peek()
+        internal void Peek()
         {
             if(this.top==null)
             {
@@ -46,7 +46,7 @@ namespace LinkedList
             }
             Console.WriteLine("{0} is in the top of the stack",this.top.data);
         }
-        internal void pop()
+        internal void Pop()
         {
             if(this.top==null)
             {
@@ -56,12 +56,12 @@ namespace LinkedList
             Console.WriteLine("Valued Popped is {0}",this.top.data);
             this.top = this.top.next;
         }
-        internal void isEmpty()
+        internal void IsEmpty()
         {
             while(this.top!=null)
             {
-                peek();
-                pop();
+                Peek();
+                Pop();
             }
         }
     }
