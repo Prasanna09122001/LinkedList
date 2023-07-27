@@ -3,7 +3,7 @@ using System.Collections.Concurrent;
                                                                      
 namespace LinkedList                                                 
 {                                                                    
-    class program                                                    
+    class Program                                                    
     {                                                                
         static void Main()                                           
         {                                                            
@@ -29,8 +29,8 @@ namespace LinkedList
             stack.Push(30);
             stack.Push(70);
             stack.Display();
-            stack.peek();
-            stack.pop();
+            stack.Peek();
+            stack.Pop();
             stack.Display();
         }                                                            
     }                                                                
